@@ -33,6 +33,7 @@ const App = () => {
             placeholder=" "
             autoComplete="off"
             type="search"
+
           />
         </div>
       </form>
