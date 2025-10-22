@@ -31,7 +31,7 @@ const TodoInfo = (props) => {
             type="button"
             onClick={deleteAllTasks}
           >
-            Delete all
+            Удалить все
           </button>
         )
       }

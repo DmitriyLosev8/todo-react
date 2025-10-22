@@ -6,7 +6,7 @@ const App = () => {
   const routes = {
     '/': TasksPage,
     '/tasks/:id': TaskPage,
-    '*': () => <div>404 Page not found</div>
+    '*': () => <div>404 Страница не найдена</div>
   }
 
   return (

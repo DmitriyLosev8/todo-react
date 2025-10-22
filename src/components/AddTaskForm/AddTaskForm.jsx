@@ -36,7 +36,7 @@ const AddTaskForm = (props) => {
     const hasOnlySpaces = value.length > 0 && clearValue.length === 0
 
     setNewTaskTitle(value)
-    setError(hasOnlySpaces ? 'The task cannot be empty' : '')
+    setError(hasOnlySpaces ? 'Задача не может быть пустой' : '')
  }
 
 
@@ -44,7 +44,7 @@ const AddTaskForm = (props) => {
     <form className={styles.form} onSubmit={onSubmit}>
       <Field
         className={styles.field}
-        label='New task title'
+        label='Новая задача'
         id='new-task'
         value={newTaskTitle}
         error={error}
@@ -55,7 +55,7 @@ const AddTaskForm = (props) => {
         type='submit'
         isDisabled={isNewTaskTitleEmpty}
       >
-        Add
+        Добавить
       </Button>
     </form>
   )

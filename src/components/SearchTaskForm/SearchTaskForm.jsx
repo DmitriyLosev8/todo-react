@@ -19,7 +19,7 @@ const SearchTaskForm = (props) => {
     >
       <Field
         className={styles.field}
-        label='Search task'
+        label='Найти задачу'
         id='search-task'
         type='search'
         value={searchQuery}
